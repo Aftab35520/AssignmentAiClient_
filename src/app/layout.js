@@ -34,15 +34,11 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
         <meta name="description" content={metadata.description} />
-        <meta name="keywords" content="AI, Assignment, Handwriting, Generation, Education, Technology" />
+        <meta name="keywords" content="AI handwriting generator, handwritten assignment maker, create handwritten assignments, assignment in human writing, AI assignment creator, handwritten notes generator, realistic handwriting AI, write assignment like human, handwritten document generator, AI for homework writing, generate human-like handwriting, handwritten content using AI, school assignment handwriting tool" />
         <meta name="author" content="Assignment Ai" />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-         <script
-          async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1785797053350370"
-          crossorigin="anonymous"
-        ></script>
+       
       </head>
       <body className="w-full flex justify-center relative overflow-x-hidden" suppressHydrationWarning={true} >
         <MyProvider>

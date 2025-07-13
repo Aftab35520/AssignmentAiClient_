@@ -25,7 +25,7 @@ export default function Page() {
     { name: "handwriting-7", size: "35px", paddingTop: "3.3cm" },
     { name: "handwriting-8", size: "30px", paddingTop: "2.85cm" },
   ];
-console.log(Answer)
+
   return (
     <div className="w-full h-dvh max-w-[2000px] flex flex-col items-center z-30 mt-4">
       <div className="w-full flex flex-col items-center">

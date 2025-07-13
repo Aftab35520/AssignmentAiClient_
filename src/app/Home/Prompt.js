@@ -65,6 +65,7 @@ export default function Prompt() {
     setQuestion("");
     setfile(null);
     setPdfText(null);
+    console.log(formData)
     try {
       const response = await fetch(`${LiveUrl}extract`, {
         method: "POST",
@@ -76,6 +77,7 @@ export default function Prompt() {
       // }
       const data = await response.json();
       setAnswer(data.text);
+   
     } catch (error) {
       setAnswer("Default");
     }
